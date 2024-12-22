@@ -1,0 +1,109 @@
+/*******************
+ Topbar
+*******************/
+mat-toolbar {
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.5);
+    &.topbar {
+      padding: 0px 15px;
+    }
+    .navbar-header {
+      text-align: center;
+      .navbar-brand {
+        display: flex;
+        line-height: 18px;
+        align-items: center;
+        .dark-logo {
+          display: none;
+        }
+        b {
+          margin-right: 10px;
+        }
+      }
+    }
+  
+    .profile-pic {
+      width: 40px !important;
+      height: 40px !important;
+      border-radius: 100%;
+    }
+  }
+  /*******************
+   Topbar
+  *******************/
+  .topbar {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .example-sidenav-container {
+    flex: 1;
+  }
+  
+  .example-sidenav-container {
+    flex: 1 0 auto;
+  }
+    /* Header Styling */
+    .social-icons {
+      display: flex;
+      gap: 10px;
+      margin-left: auto; /* Push the icons to the right */
+    }
+    
+    .social-icons a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+    
+    .social-icons a:hover {
+      color: #0077ff;
+    }
+
+    nav {
+      background-color: #6C0345;
+      color: white;
+      padding: 10px 20px;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    nav ul li {
+      position: relative;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+    }
+    nav ul li:hover {
+      background-color: #444;
+    }
+    nav ul li ul {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #444;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      z-index: 1000;
+    }
+    nav ul li ul li {
+      padding: 10px 15px;
+      white-space: nowrap;
+    }
+    nav ul li ul li a {
+      color: white;
+    }
+    nav ul li ul li:hover {
+      background-color: #555;
+    }
+    nav ul li:hover > ul {
+      display: block;
+    }

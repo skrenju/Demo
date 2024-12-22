@@ -1,0 +1,59 @@
+.upcoming-events {
+    padding: 40px 0;
+    background-color: #F5F5DC;
+  
+    .event-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      position: relative;
+      text-align: center;
+  
+      .event-date {
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #ffd615;
+        padding: 5px 15px;
+        font-weight: bold;
+        font-size: 16px;
+      }
+  
+      .event-title {
+        font-size: 24px;
+        color: #333;
+        margin-top: 40px;
+      }
+  
+      .event-pastor, .event-location {
+        font-size: 16px;
+        color: #555;
+      }
+  
+      .join-us-btn {
+        background-color: #EB5B00;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 15px;
+  
+        &:hover {
+          background-color: #eb2000;
+        }
+      }
+    }
+  }
+  .heading-section .subheading {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    letter-spacing: 8px;
+    font-weight: 600;
+    position: relative;
+}
